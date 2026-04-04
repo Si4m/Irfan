@@ -1,0 +1,155 @@
+﻿
+> portfolio-3d@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.2.2 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : Error: Cannot 
+apply unknown utility 
+class `bg-surface`. Are 
+you using CSS modules or 
+similar and missing 
+`@reference`? https://tailw
+indcss.com/docs/functions-a
+nd-directives#reference-dir
+ective
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (Err  
+  or: Cannot a...rence-d   
+ irective:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+    [2m[at 
+onInvalidCandidate (D:\Irfa
+n_dev\portfolio-3d\node_mod
+ules\tailwindcss\dist\lib.j
+s:21:1314)][0m
+    [2m[at Ee (D:\Irfan_de
+v\portfolio-3d\node_modules
+\tailwindcss\dist\lib.js:16
+:37066)][0m
+    [2m[at D:\Irfan_dev\po
+rtfolio-3d\node_modules\tai
+lwindcss\dist\lib.js:21:355
+][0m
+    [2m[at _r (D:\Irfan_de
+v\portfolio-3d\node_modules
+\tailwindcss\dist\lib.js:3:
+1733)][0m
+    [2m[at I (D:\Irfan_dev
+\portfolio-3d\node_modules\
+tailwindcss\dist\lib.js:3:1
+377)][0m
+    [2m[at Te (D:\Irfan_de
+v\portfolio-3d\node_modules
+\tailwindcss\dist\lib.js:21
+:172)][0m
+    [2m[at mn (D:\Irfan_de
+v\portfolio-3d\node_modules
+\tailwindcss\dist\lib.js:38
+:294)][0m
+    [2m[at process.process
+TicksAndRejections (node:in
+ternal/process/task_queues:
+103:5)][0m
+    [2m[at async gn (D:\Ir
+fan_dev\portfolio-3d\node_m
+odules\tailwindcss\dist\lib
+.js:38:631)][0m
+    [2m[at async Xr (D:\Ir
+fan_dev\portfolio-3d\node_m
+odules\@tailwindcss\node\di
+st\index.js:10:3416)][0m
+
+> Build error occurred
+Error: Turbopack build 
+failed with 1 errors:
+./src/app/globals.css
+Error evaluating Node.js 
+code
+CssSyntaxError: 
+tailwindcss: D:\Irfan_dev\p
+ortfolio-3d\src\app\globals
+.css:1:1: Cannot apply 
+unknown utility class 
+`bg-surface`. Are you 
+using CSS modules or 
+similar and missing 
+`@reference`? https://tailw
+indcss.com/docs/functions-a
+nd-directives#reference-dir
+ective
+    at Input.error (node_mo
+dules/postcss/lib/input.js:
+135:16) [D:\Irfan_dev\portf
+olio-3d\.next\build\chunks\
+node_modules_13sb.px._.js:4
+651:22]
+    at error (node_modules/
+postcss/lib/node.js:146:32)
+ [D:\Irfan_dev\portfolio-3d
+\.next\build\chunks\node_mo
+dules_13sb.px._.js:928:38]
+    [at Object.Once (D:\Irf
+an_dev\portfolio-3d\node_mo
+dules\@tailwindcss\postcss\
+dist\index.js:10:6913)]
+    [at process.processTick
+sAndRejections (node:intern
+al/process/task_queues:103:
+5)]
+    at async 
+LazyResult.runAsync (node_m
+odules/postcss/lib/lazy-res
+ult.js:293:11) [D:\Irfan_de
+v\portfolio-3d\.next\build\
+chunks\node_modules_13sb.px
+._.js:6214:21]
+    at async transform (tur
+bopack:///[turbopack-node]/
+transforms/postcss.ts:70:34
+) [D:\Irfan_dev\portfolio-3
+d\.next\build\chunks\[root-
+of-the-server]__0d-m0h0._.j
+s:146:36]
+    at async run (turbopack
+:///[turbopack-node]/child_
+process/evaluate.ts:89:23) 
+[D:\Irfan_dev\portfolio-3d\
+.next\build\chunks\[root-of
+-the-server]__0ubbtyl._.js:
+443:31]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css 
+[Client Component Browser]
+    ./src/app/layout.tsx 
+[Server Component]
+
+
+    at async transform (tur
+bopack:///[turbopack-node]/
+transforms/postcss.ts:70:34
+) [D:\Irfan_dev\portfolio-3
+d\.next\build\chunks\[root-
+of-the-server]__0d-m0h0._.j
+s:146:36])
+    at async run (turbopack
+:///[turbopack-node]/child_
+process/evaluate.ts:89:23) 
+[D:\Irfan_dev\portfolio-3d\
+.next\build\chunks\[root-of
+-the-server]__0ubbtyl._.js:
+443:31])
