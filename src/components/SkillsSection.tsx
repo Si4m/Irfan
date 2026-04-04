@@ -34,7 +34,7 @@ export default function SkillsSection() {
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">Engineered for<br/>Peak Performance</h2>
           <div className="w-24 h-1 bg-secondary rounded-full ml-auto"></div>
           <p className="font-sans text-on-surface-variant max-w-2xl ml-auto mt-6 text-lg">
-            Beyond the pixels lies a core of robust logic. Built with scalability as a first-class citizen, ensuring your digital presence executes flawlessly.
+            Focused on Architecting Resilience. I build systems where precision meets scalability, turning complex backend logic into seamless digital experiences. My goal is to ensure your application doesn't just run—it excels under any load.
           </p>
         </motion.div>
         
@@ -45,23 +45,28 @@ export default function SkillsSection() {
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
+              whileHover={{ y: -10, scale: 1.02 }}
               transition={{ duration: 0.6, delay: 0.1 * idx }}
-              className="p-6 rounded-2xl glass-panel relative group"
+              className="p-6 rounded-2xl glass-panel relative group border border-outline-variant/10 cursor-pointer overflow-hidden shadow-lg hover:shadow-[0_20px_40px_-15px_rgba(143,245,255,0.2)]"
             >
-              <h3 className="font-display text-xl font-semibold mb-6 flex items-center space-x-2">
-                <span className="w-2 h-2 rounded-full bg-primary" />
-                <span>{category.title}</span>
+              <h3 className="font-display text-xl font-semibold mb-6 flex items-center space-x-3">
+                <span className="w-2.5 h-2.5 rounded-full bg-primary group-hover:scale-150 group-hover:bg-secondary group-hover:shadow-[0_0_12px_rgba(255,81,250,0.8)] transition-all duration-300" />
+                <span className="group-hover:text-primary transition-colors">{category.title}</span>
               </h3>
-              <ul className="space-y-3">
+              <ul className="space-y-4">
                 {category.skills.map(skill => (
-                  <li key={skill} className="text-on-surface hover:text-white transition-colors flex items-center">
-                    <span className="text-primary/50 mr-2">/</span>
-                    {skill}
+                  <li key={skill} className="text-on-surface hover:text-white transition-all duration-300 flex items-center hover:translate-x-3 group/item text-sm md:text-base">
+                    <span className="text-primary/40 mr-3 group-hover/item:text-secondary group-hover/item:scale-125 transition-all font-mono font-bold">/</span>
+                    <span className="group-hover/item:text-primary transition-colors">{skill}</span>
                   </li>
                 ))}
               </ul>
+              
               {/* Ghost Border hover effect */}
-              <div className="absolute inset-0 border border-transparent rounded-2xl group-hover:border-primary/20 group-hover:shadow-input-glow transition-all duration-500 pointer-events-none" />
+              <div className="absolute inset-0 border-2 border-transparent rounded-2xl group-hover:border-primary/40 group-hover:shadow-[inset_0_0_20px_rgba(143,245,255,0.15)] transition-all duration-500 pointer-events-none" />
+              
+              {/* Sweep gradient hover reflection */}
+              <div className="absolute inset-0 bg-gradient-to-tr from-primary/0 via-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none rounded-2xl" />
             </motion.div>
           ))}
         </div>

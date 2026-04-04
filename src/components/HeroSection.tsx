@@ -26,7 +26,7 @@ export default function HeroSection() {
           </motion.div>
 
           <h1 className="font-display text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.1] font-bold mb-8 tracking-tighter mix-blend-screen">
-            Md Irfan Uddin | <br />
+            <span className="text-secondary inline-block transition-all duration-300 hover:scale-[1.03] hover:text-white hover:drop-shadow-[0_0_15px_rgba(255,81,250,0.8)] origin-left cursor-default">Md Irfan Uddin</span> | <br />
             <span className="text-gradient">Software Engineering</span><br />
             <span className="text-gradient">Student @ DIU</span>
           </h1>

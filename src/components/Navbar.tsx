@@ -16,7 +16,7 @@ export default function Navbar() {
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: [0.4, 0, 0.2, 1] }}
-      className="fixed top-6 left-1/2 -translate-x-1/2 z-50 px-6 py-3 glass-nav transition-all duration-300 w-[90%] md:w-auto"
+      className="fixed top-6 left-1/2 -translate-x-1/2 z-50 px-4 py-2 glass-nav rounded-full shadow-[0_10px_30px_rgba(0,0,0,0.5)] transition-all duration-300 w-[95%] md:w-auto"
     >
       <ul className="flex items-center justify-between md:justify-center space-x-2 md:space-x-8">
         {navItems.map((item) => (
