@@ -69,7 +69,7 @@ export default function ProjectsSection() {
                 <h3 className="font-display text-2xl font-bold mb-4 text-primary group-hover:text-primary-container transition-colors">
                   {project.title}
                 </h3>
-                <p className="font-sans text-on-surface-variant mb-8 line-clamp-3">
+                <p className="font-sans text-on-surface-variant mb-8">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mt-auto">
