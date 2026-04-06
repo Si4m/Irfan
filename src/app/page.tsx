@@ -19,8 +19,8 @@ export default function Home() {
         <ContactSection />
         
         {/* Footer */}
-        <footer className="py-8 text-center border-t border-outline-variant/10 relative z-10 bg-transparent">
-          <p className="font-mono text-xs md:text-sm text-on-surface-variant/60 tracking-widest uppercase">
+        <footer className="py-3 text-center border-t border-outline-variant/10 relative z-10 bg-transparent">
+          <p className="font-mono text-[10px] text-on-surface-variant/40 tracking-widest uppercase">
             &copy; 2026 Si4m | All rights reserved.
           </p>
         </footer>
