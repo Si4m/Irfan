@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-space-grotesk' })
 
 export const metadata: Metadata = {
-  title: 'NEON_DEV | Architect of the Digital Frontier',
-  description: 'Sculpting high-performance web ecosystems where technical precision meets cinematic digital art.',
+  title: 'Md Irfan Uddin | Portfolio',
+  description: 'Software Engineering student at DIU focused on building scalable fullstack applications.',
 }
 
 import CustomCursor from '@/components/CustomCursor'
