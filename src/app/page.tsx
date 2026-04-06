@@ -17,6 +17,13 @@ export default function Home() {
         <ProjectsSection />
         <SkillsSection />
         <ContactSection />
+        
+        {/* Footer */}
+        <footer className="py-8 text-center border-t border-outline-variant/10 relative z-10 bg-transparent">
+          <p className="font-mono text-xs md:text-sm text-on-surface-variant/60 tracking-widest uppercase">
+            &copy; 2026 Si4m | All rights reserved.
+          </p>
+        </footer>
       </div>
     </main>
   )
