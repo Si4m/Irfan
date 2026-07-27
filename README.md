@@ -41,5 +41,6 @@ https://irfan298.netlify.app/
 
 ## 📄 License
 
-All rights reserved.
+© 2026 SI4M | ALL RIGHTS RESERVED.
+
 This project is part of my personal portfolio. No part of this code may be copied, modified, distributed, or used without explicit permission from the author.
