@@ -17,7 +17,7 @@ const skillCategories = [
   {
     title: "Database & Tools",
     skills: ["MySQL", "Git & GitHub", "Web Security", "Server Management"]
-  }
+  },
   {
   title: "IoT & Embedded",
   skills: [
