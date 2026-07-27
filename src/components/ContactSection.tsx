@@ -131,7 +131,7 @@ export default function ContactSection() {
                   Md Irfan Uddin
                 </h3>
                 <p className="font-sans text-primary tracking-wide text-sm font-medium mb-4">
-                  Software Engineering Student @ DIU
+                  Full Stack Engineer @ SkillRoom -IT
                 </p>
 
                 <div className="flex flex-wrap gap-4 mt-6">
@@ -178,7 +178,7 @@ export default function ContactSection() {
             </h2>
 
             <p className="font-sans text-on-surface-variant text-lg max-w-2xl leading-relaxed mb-6">
-              A Software Engineering student at Daffodil International University (DIU), focused on scalable fullstack applications. I build robust backend architectures using PHP and Laravel, paired with modern UI design using Tailwind CSS. Currently, I am expanding my expertise into mobile development with Flutter to create seamless cross-platform experiences. Constantly leveling up my logic through rigorous DSA and problem-solving practice in C and Java.
+              As a Software Engineer,I focused on scalable fullstack applications. I build robust backend architectures using PHP and Laravel, paired with modern UI design using Tailwind CSS. Currently, I am expanding my expertise into mobile development with Flutter to create seamless cross-platform experiences. Constantly leveling up my logic through rigorous DSA and problem-solving practice in C and Java.
             </p>
 
             {/* Divider */}
