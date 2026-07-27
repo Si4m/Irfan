@@ -18,6 +18,17 @@ const skillCategories = [
     title: "Database & Tools",
     skills: ["MySQL", "Git & GitHub", "Web Security", "Server Management"]
   }
+  {
+  title: "IoT & Embedded",
+  skills: [
+    "Arduino",
+    "ESP32",
+    "Embedded C",
+    "Sensor Interfacing",
+    "UART / I2C / SPI",
+    "Raspberry Pi (Basic)"
+  ]
+}
 ]
 
 export default function SkillsSection() {
