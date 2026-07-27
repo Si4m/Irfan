@@ -25,7 +25,6 @@ const skillCategories = [
     "ESP32",
     "Embedded C",
     "Sensor Interfacing",
-    "UART / I2C / SPI",
     "Raspberry Pi (Basic)"
   ]
 }
