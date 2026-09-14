@@ -22,7 +22,12 @@ export default function HeroSection() {
             transition={{ duration: 0.8 }}
             className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-surface-variant/40 backdrop-blur-md"
           >
+            <a
+                href="https://drive.google.com/file/d/16-tdYS6WVqRzRqiV0XoITawyMNqt-HgB/view?usp=sharingw"
+                target="_blank"
+              >
             <span className="text-primary font-mono text-sm tracking-widest uppercase">Portfolio 2026</span>
+              </a>
           </motion.div>
 
           <h1 className="font-display text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.1] font-bold mb-8 tracking-tighter mix-blend-screen">
