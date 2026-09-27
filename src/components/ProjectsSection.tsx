@@ -31,7 +31,14 @@ const projects = [
     description: 'Built a replica of the classic Flappy Bird game using Python and Pygame, featuring gravity physics implementation, collision detection, and game loop mechanics.',
     tags: ['Python', 'Pygame', 'Game Dev'],
     id: 'flappy'
-  }
+  },
+  {
+    title: 'Fahad Tutorials — Digital Marketing',
+    description: 'Working with Fahad Tutorials on SEO, digital marketing, and video editing — hands-on experience across content strategy and channel growth.',
+    tags: ['SEO', 'Digital Marketing', 'Video Editing'],
+    id: 'fahad-tutorials',
+    link: 'https://www.facebook.com/share/1C2GcDBP9q/'
+}
 ]
 
 export default function ProjectsSection() {
