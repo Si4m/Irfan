@@ -37,7 +37,8 @@ export default function HeroSection() {
           </h1>
 
           <p className="font-sans text-on-surface-variant text-lg md:text-xl max-w-2xl leading-relaxed mb-12">
-            Passionate about backend architectures, problem-solving, and crafting modern interactive applications. Dedicated to mastering scalable server-side systems with PHP & Laravel while maintaining a strong grip on Data Structures and Algorithms.
+            Building scalable systems by day, scaling brands by strategy. A Full Stack Engineer who thinks like a marketer — PHP & Laravel for the backend,
+            Facebook Ads & SEO for growth, AI for the edge. Strong DSA foundation, stronger curiosity.
           </p>
 
           <div className="flex flex-wrap gap-6">
