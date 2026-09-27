@@ -177,7 +177,8 @@ export default function ContactSection() {
             </h2>
 
             <p className="font-sans text-on-surface-variant text-lg max-w-2xl leading-relaxed mb-6">
-              As a Software Engineer,I focused on scalable fullstack applications. I build robust backend architectures using PHP and Laravel, paired with modern UI design using Tailwind CSS. Currently, I am expanding my expertise into mobile development with Flutter to create seamless cross-platform experiences. Constantly leveling up my logic through rigorous DSA and problem-solving practice in C and Java.
+              As a Software Engineer, I build robust backend architectures using PHP and Laravel, paired with clean, responsive UI using HTML, CSS, and Tailwind CSS — and I love crafting immersive 3D websites with Three.js. As a Digital Marketer, I drive growth through Facebook Ads, SEO, video editing, and AI-powered strategies. Currently expanding into mobile development with Flutter for seamless cross-platform experiences, 
+              while constantly sharpening my logic through rigorous DSA practice in C and Java.
             </p>
 
             {/* Divider */}
