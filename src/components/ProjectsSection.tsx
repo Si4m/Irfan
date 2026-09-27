@@ -38,7 +38,7 @@ const projects = [
     tags: ['SEO', 'Digital Marketing', 'Video Editing'],
     id: 'fahad-tutorials',
     link: 'https://www.facebook.com/share/1C2GcDBP9q/'
-}
+  }
 ]
 
 export default function ProjectsSection() {
@@ -71,8 +71,17 @@ export default function ProjectsSection() {
               }}
               style={{ perspective: 1000 }}
               className="group relative h-full"
+              onClick={() => {
+                if (project.link) {
+                  window.open(project.link, '_blank', 'noopener,noreferrer')
+                }
+              }}
             >
-              <div className="h-full p-8 rounded-xl bg-surface-container-high transition-all duration-300 shadow-3d-ambient group-hover:shadow-[0_0_25px_rgba(255,81,250,0.08)]">
+              <div
+                className={`h-full p-8 rounded-xl bg-surface-container-high transition-all duration-300 shadow-3d-ambient group-hover:shadow-[0_0_25px_rgba(255,81,250,0.08)] ${
+                  project.link ? 'cursor-pointer' : ''
+                }`}
+              >
                 <h3 className="font-display text-2xl font-bold mb-4 text-primary group-hover:text-primary-container transition-colors">
                   {project.title}
                 </h3>
