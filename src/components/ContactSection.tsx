@@ -110,8 +110,7 @@ export default function ContactSection() {
               {/* Profile Image */}
               <div className="relative w-full h-full rounded-[2rem] overflow-hidden bg-surface flex-grow">
                 {/* 
-                  Note: Please make sure to save your image as 'profile.jpg' 
-                  inside the 'public' folder of your project to see it here! 
+                Image.2025
                 */}
                 <img
                   src="/profile.jpg"
@@ -131,7 +130,7 @@ export default function ContactSection() {
                   Md Irfan Uddin
                 </h3>
                 <p className="font-sans text-primary tracking-wide text-sm font-medium mb-4">
-                  Full Stack Engineer @ SkillRoom -IT
+                  Full Stack Engineer|Digital Marketer
                 </p>
 
                 <div className="flex flex-wrap gap-4 mt-6">
