@@ -19,6 +19,10 @@ const skillCategories = [
     skills: ["MySQL", "Git & GitHub", "Web Security", "Server Management"]
   },
   {
+    title: "Digital Marketing",
+    skills: ["Email Marketing", "YouTube SEO & Optimization","CapCut Video Editing","Content Creation (Reels/Shorts)", "Canva Design & Branding"]
+},
+  {
   title: "IoT & Embedded",
   skills: [
     "Arduino",
