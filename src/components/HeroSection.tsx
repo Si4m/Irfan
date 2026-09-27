@@ -23,7 +23,7 @@ export default function HeroSection() {
             className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-surface-variant/40 backdrop-blur-md"
           >
             <a
-                href="https://drive.google.com/file/d/16-tdYS6WVqRzRqiV0XoITawyMNqt-HgB/view?usp=sharingw"
+                href="https://drive.google.com/file/d/1T7KAp0HPnbeGDW9KdJxj88o8UzVQjgWP/view?usp=sharing"
                 target="_blank"
               >
             <span className="text-primary font-mono text-sm tracking-widest uppercase">Portfolio 2026</span>
