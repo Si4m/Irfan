@@ -20,7 +20,7 @@ const skillCategories = [
   },
   {
     title: "Digital Marketing",
-    skills: ["Email Marketing", "YouTube SEO & Optimization","CapCut Video Editing","Content Creation (Reels/Shorts)", "Canva Design & Branding"]
+    skills: ["Email Marketing", "YouTube SEO & Optimization","CapCut Video Editing","Facebook Ads Expert", "Canva Design "]
 },
   {
   title: "IoT & Embedded",
