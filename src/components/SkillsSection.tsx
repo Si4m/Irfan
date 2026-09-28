@@ -12,7 +12,7 @@ const skillCategories = [
   },
   {
     title: "Specialties",
-    skills: ["Fullstack Web Dev", "UI/UX Design", "WordPress", "RESTful APIs"]
+    skills: ["Fullstack Web Dev", "UI/UX Design", "WordPress", "Digital Marketing"]
   },
   {
     title: "Database & Tools",
