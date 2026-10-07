@@ -23,6 +23,16 @@ const skillCategories = [
     skills: ["Email Marketing", "YouTube SEO & Optimization","CapCut Video Editing","Facebook Ads Expert", "Canva Design "]
 },
   {
+  title: "AI Creator",
+  skills: [
+    "Google Flow (Veo)",
+    "Dreamina",
+    "AI Video & Reels",
+    "AI Product & Ad Videos",
+    "Prompt Writing"
+  ]
+},
+  {
   title: "IoT & Embedded",
   skills: [
     "Arduino",
