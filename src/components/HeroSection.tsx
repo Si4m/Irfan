@@ -53,18 +53,18 @@ export default function HeroSection() {
             <motion.a
   whileHover={{ scale: 1.05, backgroundColor: 'rgba(43, 40, 72, 1)' }}
   whileTap={{ scale: 0.95 }}
-  href="https://drive.google.com/file/d/1UsAgi1gjhTR_0mMdvtkCib60ty5eamRn/view?usp=share_link"
+  href="https://drive.google.com/file/d/1-QjtmXDpeFCRFUSFu7yRJ0Ym34fqq_Ne/view?usp=share_link"
   target="_blank"
   rel="noopener noreferrer"
   className="px-8 py-4 rounded-xl border border-outline-variant/40 bg-transparent text-on-surface font-semibold tracking-wide backdrop-blur-sm transition-all shadow-[0_0_20px_rgba(72,69,92,0.1)]"
 >
-  Terminal Access
+  Get My Resume
 </motion.a>
           </div>
         </motion.div>
       </div>
 
-      {/* Decorative Gradients */}
+      {/* Deco Gradients */}
       <div className="absolute top-1/4 -right-1/4 w-[50vw] h-[50vw] rounded-full bg-primary/10 blur-[120px] pointer-events-none mix-blend-screen" />
       <div className="absolute bottom-1/4 -left-1/4 w-[40vw] h-[40vw] rounded-full bg-secondary/10 blur-[120px] pointer-events-none mix-blend-screen" />
     </section>
