@@ -23,7 +23,7 @@ export default function HeroSection() {
             className="inline-block mb-6 px-4 py-1.5 rounded-full border border-primary/30 bg-surface-variant/40 backdrop-blur-md"
           >
             <a
-                href="https://drive.google.com/file/d/1UsAgi1gjhTR_0mMdvtkCib60ty5eamRn/view?usp=share_link"
+                href="#"
                 target="_blank"
               >
             <span className="text-primary font-mono text-sm tracking-widest uppercase">Portfolio 2026</span>
@@ -33,7 +33,7 @@ export default function HeroSection() {
           <h1 className="font-display text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.1] font-bold mb-8 tracking-tighter mix-blend-screen">
             <span className="text-secondary inline-block transition-all duration-300 hover:scale-[1.03] hover:text-white hover:drop-shadow-[0_0_15px_rgba(255,81,250,0.8)] origin-left cursor-default">Md Irfan Uddin</span> | <br />
             <span className="text-gradient">Full Stack Engineer | Digital Marketer</span><br />
-            <span className="text-gradient">AI Creator</span>
+            <span className="text-gradient">| AI Creator</span>
           </h1>
 
           <p className="font-sans text-on-surface-variant text-lg md:text-xl max-w-2xl leading-relaxed mb-12">
@@ -51,13 +51,15 @@ export default function HeroSection() {
               Explore Missions
             </motion.a>
             <motion.a
-              whileHover={{ scale: 1.05, backgroundColor: 'rgba(43, 40, 72, 1)' }}
-              whileTap={{ scale: 0.95 }}
-              href="#contact"
-              className="px-8 py-4 rounded-xl border border-outline-variant/40 bg-transparent text-on-surface font-semibold tracking-wide backdrop-blur-sm transition-all shadow-[0_0_20px_rgba(72,69,92,0.1)]"
-            >
-              Terminal Access
-            </motion.a>
+  whileHover={{ scale: 1.05, backgroundColor: 'rgba(43, 40, 72, 1)' }}
+  whileTap={{ scale: 0.95 }}
+  href="https://drive.google.com/file/d/1UsAgi1gjhTR_0mMdvtkCib60ty5eamRn/view?usp=share_link"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-8 py-4 rounded-xl border border-outline-variant/40 bg-transparent text-on-surface font-semibold tracking-wide backdrop-blur-sm transition-all shadow-[0_0_20px_rgba(72,69,92,0.1)]"
+>
+  Terminal Access
+</motion.a>
           </div>
         </motion.div>
       </div>
